@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: solid 5px #D0D0D0;
+    width: 490px;
+    margin: 0 auto;
+    background-color: #DDE1E2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+main {
+    background-color: #DDE1E2;
+    margin: 0 auto;
+}
+
+header {
+    height: 116px;
+    background-image: url("https://picsum.photos/320/200?random=1&blur=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.logo__text {
+    padding-left: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 43px;
+    text-shadow: 3px 3px 3px black, 0 0 1em rgb(0, 0, 0);;
+}
+
+.chat-component {
+    min-height: 145px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-bottom: #D3D7D8 solid 1px;
+}
+
+.chat-message {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.chat-messages {
+    min-height: 400px;
+    
+}
+
+.no-messages-notification {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.chat-message__avatar {
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    margin-left: 15px;
+    border: solid 4px #fff;
+}
+
+
+.chat-message__text {
+    border-radius: 15px;
+    background-color: #fff;
+    min-height: 114px;
+    width: 306px;
+    padding: 16px 12px;
+    margin-left: 15px;
+    overflow-wrap: break-word;
+    font-size: 19px;
+
+}
+
+.my-chat-message {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #D3D7D8;
+    background-size: 492px;
+}
+
+.my-chat-message img {
+    margin-right: 15px;
+    width: 114px;
+    height: 114px;
+}
+
+.button__send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 104px;
+}
+
+.chat-component__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 129px;
+}
+
+
+
+.new-message-input {
+    display: block;
+    border: solid 1px #CACACA;
+    border-radius: 10px;
+    min-height: 80px;
+    min-width: 420px;
+    max-height: 80px;
+    max-width: 420px;
+    font-size: 18px;
+    padding: 10px;
+    box-shadow: inset -1px 2px 8px 3px rgb(0 0 10 / 10%);
+}
+
+.button {
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    height: 59px;
+    width: 423px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #2589CC;
+    border-radius: 7px;
+    border: none;
+}

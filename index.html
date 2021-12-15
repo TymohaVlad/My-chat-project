@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title></title>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo__text">
+            <div>My Chat</div>
+        </div>
+    </header>
+    <main class="content">
+
+        <div class="chat">
+            <section class="chat-messages" id="chat-messages-window">
+                <article class="no-messages-notification" id="no-messages-notification">
+                    <span>Send message to start dialog</span>
+                </article>
+
+            </section>
+
+            <section class="chat-controlls">
+                <form id="send-message-form">
+
+                    <article class="chat-component chat-component__input">
+                        <textarea class="new-message-input" required id="new-message-input"></textarea>
+                    </article>
+
+                    <article class="chat-component button__send">
+                        <button class="button" type="submit" id="send-message-button">Send message</button>
+                    </article>
+                </form>
+
+            </section>
+        </div>
+    </main>
+
+    <script>
+        initialise();
+    </script>
+
+</body>
+
+</html>
